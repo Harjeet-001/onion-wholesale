@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f8f8f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* HEADER */
+.header {
+  background: #2e7d32;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.header h1 {
+  font-size: 32px;
+}
+
+.header p {
+  font-size: 16px;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  background: white;
+}
+
+.hero-text {
+  flex: 1;
+  padding: 20px;
+}
+
+.hero-text h2 {
+  color: #2e7d32;
+  margin-bottom: 10px;
+}
+
+.hero-image {
+  flex: 1;
+  padding: 20px;
+}
+
+.hero-image img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* SERVICES */
+.services {
+  padding: 30px;
+  background: #e8f5e9;
+}
+
+.services h2 {
+  text-align: center;
+  color: #2e7d32;
+  margin-bottom: 20px;
+}
+
+.services ul {
+  max-width: 500px;
+  margin: auto;
+  list-style: none;
+}
+
+.services li {
+  background: white;
+  margin: 10px 0;
+  padding: 12px;
+  border-left: 5px solid #2e7d32;
+}
+
+/* CONTACT */
+.contact {
+  padding: 30px;
+  background: white;
+}
+
+.contact h2 {
+  text-align: center;
+  color: #2e7d32;
+  margin-bottom: 20px;
+}
+
+.contact-box {
+  max-width: 500px;
+  margin: auto;
+  background: #f1f8e9;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* FOOTER */
+footer {
+  background: #2e7d32;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+  }
+}
